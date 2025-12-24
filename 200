@@ -20,7 +20,7 @@
   <script src="https://cdn.jsdelivr.net/npm/midiwriter-js@2.1.0/build/index.umd.js"></script>
 
   <!-- Tu código minificado (asegúrate que DocerolaStudio.min.js exporte/monte la app en #root) -->
-  <script src="DocerolaStudio.min.js"></script>
+  <script type="module" src="DocerolaStudio.min.js"></script>
 
   <!-- Si tu bundle exporta un componente, usa este pequeño bootstrapper -->
   <script>
